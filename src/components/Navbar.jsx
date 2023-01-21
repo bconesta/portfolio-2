@@ -10,11 +10,11 @@ export default function Navbar(props) {
           <img src={Bruno} alt="brunoconesta" />
         </div>
         <ul>
-          <li><a href="" className='selected'>BRUNO</a></li>
-          <li><a href="">ABOUT</a></li>
-          <li><a href="">PROJECTS</a></li>
-          <li><a href="">EDUCATION</a></li>
-          <li><a href="">CONTACT</a></li>
+          <li><a href="#bruno" id="bruno-nav" className='selected'>BRUNO</a></li>
+          <li><a href="#about" id="about-nav">ABOUT</a></li>
+          <li><a href="#projects" id="projects-nav">PROJECTS</a></li>
+          <li><a href="#education" id="education-nav">EDUCATION</a></li>
+          <li><a href="#contact" id="contact-nav">CONTACT</a></li>
         </ul>
       </div>
     </div>

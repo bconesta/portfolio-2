@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
 
+$navbar-width : 250px;
+
+html{scroll-behavior:smooth}
+
 body{
   background-color: #202033;
   //font-family: 'Oswald', sans-serif;
@@ -8,10 +12,12 @@ body{
 }
 
 .navbar{
-  width: 250px;
+  position: sticky;
+  top: 0;
+  width: $navbar-width;
   height: 100vh;
   background-color: #232333;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   .container{
     text-align: center;
@@ -39,4 +45,14 @@ body{
       }
     }
   }
+}
+.initial{
+  margin-top: -100vh;
+}
+.page{
+  height: 100vh;
+  margin-left: $navbar-width;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
