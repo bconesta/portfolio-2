@@ -10,7 +10,7 @@ export default function Navbar(props) {
           <img src={Bruno} alt="brunoconesta" />
         </div>
         <ul>
-          <li><a href="#bruno" id="bruno-nav" className='selected'>BRUNO</a></li>
+          <li><a href="#" id="bruno-nav" className='selected'>BRUNO</a></li>
           <li><a href="#about" id="about-nav">ABOUT</a></li>
           <li><a href="#projects" id="projects-nav">PROJECTS</a></li>
           <li><a href="#education" id="education-nav">EDUCATION</a></li>
