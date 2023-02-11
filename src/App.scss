@@ -63,10 +63,10 @@ body{
       color: #a5a5ff;
     }
     h2{
-      color: rgb(226, 185, 0);
+      color: #e2b900;
     }
     h4{
-      color: rgb(125, 53, 192);
+      color: #7d35c0;
       a{
         color: #990000;
         text-decoration: underline;
@@ -105,6 +105,20 @@ body{
           filter:brightness(1000%);
         }
       }
+    }
+  }
+}
+#about{
+  div{
+    width: 1000px;
+    h1{
+      font-size: 50px;
+    }
+    h2{
+      color: #a5a5ff;
+    }
+    p{
+      color: #7d35c0;
     }
   }
 }
