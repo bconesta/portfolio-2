@@ -24,7 +24,7 @@ export default function Card(props) {
           }
         </div>
         <div className='links'>
-          <a href={props.appref} download={props.download} target="_blank" rel='noreferer'> 
+          <a href={props.appref} style={{float: "left"}} download={props.download} target="_blank" rel='noreferer'> 
             {!props.download && <img src={Open} alt="" />}
             {props.download && <img src={Download} alt="" />}
           </a>

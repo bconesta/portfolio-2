@@ -5,17 +5,16 @@ export default function About() {
     <div>
       <h1>ABOUT ME</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Qui id praesentium minus eos a vitae aut odit eaque! Autem 
-        dolorem eius quae nulla labore earum quo neque quaerat soluta
-        eveniet!
+      As an electrical technician and robotics, team work and code lover, I'm aiming to get
+      extra knowledge and having more experience on industry by giving my creativity and 
+      aptitudes to them. <br /> <br />
+      I'm currently studing for beeing an electrical engineer and looking
+      for new challenges.
       </p>
-      <h2>Donde estaaaaaas</h2>
+      <h2>EXPERIENCE</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Reprehenderit vero harum assumenda numquam? <br /> <br /><br />
-        Corrupti id amet aspernatur, recusandae quidem sit iste aut dignissimos, 
-        voluptate nobis corporis ad, veritatis ducimus laudantium.
+        If you want to know about my experience and projects that I worked on, check my 
+        resume up there or visit my <a href="https://linkedin.com/in/bruno-conesta" target="_blank" rel='noreferrer'>Linkedin profile</a> 
       </p>
     </div>
   )

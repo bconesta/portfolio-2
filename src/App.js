@@ -2,6 +2,7 @@ import './App.scss';
 import Navbar from './components/Navbar';
 import Bruno from './sections/Bruno';
 import About from './sections/About';
+import Skills from './sections/Skills'
 import Projects from './sections/Projects';
 import Education from './sections/Education';
 import Contact from './sections/Contact';
@@ -17,12 +18,17 @@ export default function App() {
       <div className="page" id="about">
         <About /> 
       </div>
+      <div className="page" id="skills">
+        <Skills />
+      </div>
       <div className="page" id="projects">
         <Projects />
       </div>
-      <div className="page" id="education">
+      {
+        /*<div className="page" id="education">
         <Education />
-      </div>
+        </div>*/
+      }
       <div className="page" id="contact">
         <Contact />
       </div>

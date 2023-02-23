@@ -44,6 +44,9 @@ body{
         }
       }
     }
+    button{
+      display: none;
+    }
   }
 }
 .initial{
@@ -110,7 +113,7 @@ body{
 }
 #about{
   div{
-    width: 1000px;
+    width: 80%;
     h1{
       font-size: 50px;
     }
@@ -119,6 +122,164 @@ body{
     }
     p{
       color: #7d35c0;
+    }
+    a{
+      color: #e2b900;
+    }
+  }
+}
+
+#skills{
+  .skill-badge{
+    margin: 5px 5px 5px 0;
+  }
+}
+
+#projects{
+  .projects-container{
+    width: 90%;
+  }
+  .featured-container{
+    margin: 0;
+    display: flex;
+    overflow-x: scroll;
+    width: 95%;
+    padding-bottom: 8px;
+    &::-webkit-scrollbar{
+      height: 8px;
+    }
+    &::-webkit-scrollbar-thumb{
+      background-color: white;
+      border-radius: 5px;
+    }
+
+  }
+
+}
+
+#education{
+  div{
+    .item{
+      margin: 30px 0;
+      h1{
+        font-size: 30px;
+        margin: 0;
+      }
+      h2{
+        font-size: 20px;
+        margin: 5px 0 0;
+      }
+      h4{
+        margin: 5px 0 0;
+        color: white;
+      }
+      p{
+        color: #7d35c0;
+      }
+    }
+  }
+}
+
+#contact{
+  h4{
+    display: inline-block;
+  }
+  a{
+    color: #e2b900;
+    margin-left: 10px;
+  }
+  h2{
+    margin-top: 60px;
+  }
+  .skill-badge{
+    margin: 5px 5px 5px 0;
+  }
+}
+
+@media (max-width : 600px){
+  .navbar{
+    position: sticky;
+    display: block;
+    margin: 0;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .foto-container{
+        position: absolute;
+        left: 15px;
+        margin: 0;
+        width: 40px;
+        height: 40px;
+        img{
+          width: 100%;
+        }
+      }
+      ul{
+        li{
+          .hide{
+            display: none;
+          }
+          a{
+            font-size: 20px;
+          }
+        }
+      }
+      button{
+        display: block;
+        position: absolute;
+        width: 50px;
+        background-color: #00000000;
+        border: none;
+        right: 10px;
+        img{
+          width: 100%;
+        }
+      }
+    }
+  }
+  .page{
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    div{
+      margin: 0;
+      h1{
+        font-size: 70px;
+      }
+      h2{
+        font-size: 20px;
+        margin: 0 20px
+      }
+      ul{
+        li{
+          margin: 0 20px;
+        }
+      }
+    }
+  }
+  #projects{
+    .projects-container{
+      margin: 0 !important;
+      width: auto;
+      text-align: center;
+      h1{
+        font-size: 50px;
+      }
+      .featured-container{
+        width: 287px;
+        margin-top: 30px;
+      }
+    }
+  }
+  #contact{
+    div{
+      h1{
+        font-size: 50px;
+      }
     }
   }
 }
