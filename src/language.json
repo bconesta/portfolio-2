@@ -1,0 +1,70 @@
+{
+    "es" : {
+        "navbar" : ["BRUNO", "SOBRE MI", "APTITUDES", "PROYECTOS", "CONTACTO"],
+        "bruno" : [
+            "BIENVENIDO A MI PORTAFOLIO COMO DESARROLLADOR FRONT-END",
+            "Si estas interesado en contactarme, escribime a",
+            "Descarga mi CV"
+        ],
+        "about" : [
+            "SOBRE MI",
+            "Como técnico electrónico y amante de la robotica, trabajo en equipo y la programación, busco conseguir nuevo conocimiento y experiencia en la industria con mis aptitudes.",
+            "Actualmente me encuentro estudiando ingeniería electrónica y buscando nuevos desafios laborales.",
+            "EXPERIENCIA",
+            "Si quieres saber mas sobre mi experiencia laboral y los proyectos en los que trabajé, descarga mi CV arriba o visitame en ",
+            "LinkedIn"
+        ],
+        "skills" : [
+            "APTITUDES",
+            "Lenguajes de programación",
+            "Frameworks y librerías",
+            "Softwares y herramientas",
+            "Lenguajes",
+            "Nativo"
+        ],
+        "projects" : {
+            "tittle" : "PROYECTOS",
+            "featured" : "Proyectos destacados",
+            "planty" : "Aplicación móvil para ver las condiciones de tus plantas",
+            "domodin" : "PWA destinada al control de los dispositivos de una casa",
+            "portfolio" : "Version antigua de mi portfolio de desarrollador",
+            "memotest" : "Juego hecho como freelancer para una compañía",
+            "roulette" : "Generador de ruleta para tomar decisiones"
+        },
+        "contact" : ["CONTACTAME", "Sitio creado con:"]
+    },
+    "en" : {
+        "navbar" : ["BRUNO", "ABOUT", "SKILLS", "PROJECTS", "CONTACT"],
+        "bruno" : [
+            "WELCOME TO MY PORTFOLIO AS FRONT-END DEVELOPER",
+            "If you are interested in contact me, write me at",
+            "Download my resume"
+        ],
+        "about" : [
+            "ABOUT ME",
+            "As an electrical technician and robotics, team work and code lover, I'm aiming to get extra knowledge and having more experience on industry by giving my creativity and aptitudes to them.",
+            "I'm currently studing for beeing an electrical engineer and looking for new challenges.",
+            "EXPERIENCE",
+            "If you want to know about my experience and projects that I worked on, check my resume up there or visit my ",
+            "LinkedIn profile"
+        ],
+        "skills" : [
+            "SKILLS",
+            "Programming languages",
+            "Frameworks and libraries",
+            "Software and tools",
+            "Languages",
+            "Native"
+        ],
+        "projects" : {
+            "tittle" : "PROJECTS",
+            "featured" : "Featured projects",
+            "planty" : "Mobile app for monitoring plants climate conditions",
+            "domodin" : "Mobile PWA for controlling home devices",
+            "portfolio" : "Older version of my developer portfolio",
+            "memotest" : "Game made for a company as a freelancer",
+            "roulette" : "Roulette generator for making choices"
+        },
+        "contact" : ["CONTACT ME", "Website created with:"]
+    }
+}

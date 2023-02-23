@@ -7,22 +7,26 @@ import Projects from './sections/Projects';
 import Education from './sections/Education';
 import Contact from './sections/Contact';
 
+import Language from './language.json'
+
 export default function App() {
   
+  const lang = window.navigator.language[0] === "e" && window.navigator.language[1] === "s" ? Language["es"] : Language["en"];
+
   return (
     <div className="App">
-      <Navbar className="navbar"/>
+      <Navbar className="navbar" lang={lang} />
       <div className="page initial" id="bruno">
-        <Bruno />
+        <Bruno lang={lang} />
       </div>
       <div className="page" id="about">
-        <About /> 
+        <About lang={lang} /> 
       </div>
       <div className="page" id="skills">
-        <Skills />
+        <Skills lang={lang} />
       </div>
       <div className="page" id="projects">
-        <Projects />
+        <Projects lang={lang} />
       </div>
       {
         /*<div className="page" id="education">
@@ -30,7 +34,7 @@ export default function App() {
         </div>*/
       }
       <div className="page" id="contact">
-        <Contact />
+        <Contact lang={lang} />
       </div>
     </div>
   );

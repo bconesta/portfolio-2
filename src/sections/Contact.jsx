@@ -4,10 +4,13 @@ import JSBadge from '../img/badges/js.png'
 import SassBadge from '../img/badges/sass.png'
 import VercelBadge from '../img/badges/vercel.png'
 import Badge from '../components/Badge'
-export default function Contact() {
+export default function Contact(props) {
+
+  const lang = props.lang;
+
   return (
     <div>
-      <h1>CONTACT ME</h1>
+      <h1>{lang.contact[0]}</h1>
       <h4>Email</h4>
       <a href="mailto:bconesta@gmail.com">bconesta@gmail.com</a> <br/>
       <h4>Whatsapp</h4>
@@ -15,7 +18,7 @@ export default function Contact() {
       <h4>LinkedIn</h4>
       <a href="https://linkedin.com/in/bruno-conesta">in/bruno-conesta</a>
 
-      <h2>Website created with:</h2>
+      <h2>{lang.contact[1]}</h2>
       <div className="badges-skills" style={{margin: 0}}>
           <Badge src={ReactBadge} tittle="React" />
           <Badge src={JSBadge} tittle="JavaScript" />
