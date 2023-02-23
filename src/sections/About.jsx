@@ -1,20 +1,18 @@
 import React from 'react'
 
-export default function About() {
+export default function About(props) {
+  
+  const lang = props.lang;
+
   return (
     <div>
-      <h1>ABOUT ME</h1>
-      <p>
-      As an electrical technician and robotics, team work and code lover, I'm aiming to get
-      extra knowledge and having more experience on industry by giving my creativity and 
-      aptitudes to them. <br /> <br />
-      I'm currently studing for beeing an electrical engineer and looking
-      for new challenges.
+      <h1>{lang.about[0]}</h1>
+      <p>{lang.about[1]} <br /> <br />
+        {lang.about[2]}
       </p>
-      <h2>EXPERIENCE</h2>
+      <h2>{lang.about[3]}</h2>
       <p>
-        If you want to know about my experience and projects that I worked on, check my 
-        resume up there or visit my <a href="https://linkedin.com/in/bruno-conesta" target="_blank" rel='noreferrer'>Linkedin profile</a> 
+        {lang.about[4]} <a href="https://linkedin.com/in/bruno-conesta" target="_blank" rel='noreferrer'>{lang.about[5]}</a> 
       </p>
     </div>
   )

@@ -16,11 +16,14 @@ import SassBadge from '../img/badges/sass.png'
 import HtmlBadge from '../img/badges/html.png'
 import CSSBadge from '../img/badges/css.png'
 
-export default function Projects() {
+export default function Projects(props) {
+  
+  const lang = props.lang;
+
   return (
     <div style={{margin : '0 0 0 50px'}} className="projects-container" >
-      <h1>PROJECTS</h1>
-      <h2>Featured projects</h2>
+      <h1>{lang.projects.tittle}</h1>
+      <h2>{lang.projects.featured}</h2>
       <div className="featured-container">
       <Card 
         src={Planty} 
@@ -31,7 +34,7 @@ export default function Projects() {
         appref="/files/miplanty_v1.02.apk"
         gitref="https://github.com/bconesta/MiPlanty"
       >
-        Mobile app for monitoring plants climate conditions
+        {lang.projects.planty}
       </Card>
       <Card 
         src={Domodin} 
@@ -40,7 +43,7 @@ export default function Projects() {
         badges={[[IonicBadge, "Ionic framework"], [AngularBadge, "Angular"], [TypeBage, "TypeScript"], [SassBadge, "Sass"]]}
         appref="https://domotica-120ce.web.app/login"
       >
-        Mobile PWA for controlling home devices
+        {lang.projects.domodin}
       </Card>      
       <Card 
         src={Oldport} 
@@ -50,7 +53,7 @@ export default function Projects() {
         appref="https://bconesta.github.io/portfolio/"
         gitref="https://github.com/bconesta/portfolio"
       >
-        Older version of my developer portfolio
+        {lang.projects.portfolio}
       </Card>  
       <Card 
         src={Memotest} 
@@ -60,7 +63,7 @@ export default function Projects() {
         appref="https://memomiga.vercel.app"
         gitref="https://github.com/bconesta/memotest-react"
       >
-        Game made for a company as a freelancer
+        {lang.projects.memotest}
       </Card>
       <Card 
         src={Roulette} 
@@ -70,7 +73,7 @@ export default function Projects() {
         appref="https://roulettemiga.vercel.app"
         gitref="https://github.com/bconesta/roulette-react"
       >
-        Roulette generator for making choices
+        {lang.projects.roulette}
       </Card>
       </div> 
     </div>
