@@ -29,7 +29,8 @@
             "domodin" : "PWA destinada al control de los dispositivos de una casa",
             "portfolio" : "Version antigua de mi portfolio de desarrollador",
             "memotest" : "Juego hecho como freelancer para una compañía",
-            "roulette" : "Generador de ruleta para tomar decisiones"
+            "roulette" : "Generador de ruleta para tomar decisiones",
+            "waiot" : "PWA para controlar el filtro de la piscina"
         },
         "contact" : ["CONTACTAME", "Sitio creado con:"]
     },
@@ -63,7 +64,8 @@
             "domodin" : "Mobile PWA for controlling home devices",
             "portfolio" : "Older version of my developer portfolio",
             "memotest" : "Game made for a company as a freelancer",
-            "roulette" : "Roulette generator for making choices"
+            "roulette" : "Roulette generator for making choices",
+            "waiot" : "PWA for controlling pool filter timer"
         },
         "contact" : ["CONTACT ME", "Website created with:"]
     }

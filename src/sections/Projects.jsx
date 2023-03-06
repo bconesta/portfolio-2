@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from '../components/Card'
 
+import Waiot from '../img/waiot/all.png'
 import Planty from '../img/planty/all.png'
 import Domodin from '../img/domodin/all.png'
 import Oldport from '../img/oldport.png'
@@ -25,6 +26,16 @@ export default function Projects(props) {
       <h1>{lang.projects.tittle}</h1>
       <h2>{lang.projects.featured}</h2>
       <div className="featured-container">
+      <Card 
+        src={Waiot} 
+        alt='Waiot' 
+        title='WAIOT' 
+        badges={[[ReactBadge, "React.js"], [JSBadge, "JavaScript"], [SassBadge, "Sass"]]}
+        appref="https://waiot-2.vercel.app"
+        gitref="https://github.com/bconesta/waiot-2"
+      >
+        {lang.projects.waiot}
+      </Card>
       <Card 
         src={Planty} 
         alt='Mi planty' 
