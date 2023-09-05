@@ -30,7 +30,8 @@
             "portfolio" : "Version antigua de mi portfolio de desarrollador",
             "memotest" : "Juego hecho como freelancer para una compañía",
             "roulette" : "Generador de ruleta para tomar decisiones",
-            "waiot" : "PWA para controlar el filtro de la piscina"
+            "waiot" : "PWA para controlar el filtro de la piscina",
+            "wordland" : "Juego de palabras generado diariamente con la api de OpenAI"
         },
         "contact" : ["CONTACTAME", "Sitio creado con:"]
     },
@@ -65,7 +66,8 @@
             "portfolio" : "Older version of my developer portfolio",
             "memotest" : "Game made for a company as a freelancer",
             "roulette" : "Roulette generator for making choices",
-            "waiot" : "PWA for controlling pool filter timer"
+            "waiot" : "PWA for controlling pool filter timer",
+            "wordland" : "Word game generated daily with OpenAI's API"
         },
         "contact" : ["CONTACT ME", "Website created with:"]
     }

@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from '../components/Card'
 
+import Wordland from '../img/wordland/wordland.png'
 import Waiot from '../img/waiot/all.png'
 import Planty from '../img/planty/all.png'
 import Domodin from '../img/domodin/all.png'
@@ -16,6 +17,8 @@ import JSBadge from '../img/badges/js.png'
 import SassBadge from '../img/badges/sass.png'
 import HtmlBadge from '../img/badges/html.png'
 import CSSBadge from '../img/badges/css.png'
+import NextBadge from '../img/badges/nextjs.svg'
+import OpenAIBadge from '../img/badges/openai.png'
 
 export default function Projects(props) {
   
@@ -26,6 +29,16 @@ export default function Projects(props) {
       <h1>{lang.projects.tittle}</h1>
       <h2>{lang.projects.featured}</h2>
       <div className="featured-container">
+      <Card 
+        src={Wordland} 
+        alt='Wordland' 
+        title='WORDLAND' 
+        badges={[[NextBadge, "Next.js"], [ReactBadge, "React.js"], [JSBadge, "JavaScript"], [OpenAIBadge, "OpenAI API"]]}
+        appref="https://wordland.vercel.app"
+        gitref="https://github.com/bconesta/sth-game"
+      >
+        {lang.projects.wordland}
+      </Card>
       <Card 
         src={Waiot} 
         alt='Waiot' 

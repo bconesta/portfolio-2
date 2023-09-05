@@ -2,6 +2,7 @@ import React from 'react'
 
 import Badge from '../components/Badge'
 
+import NextBadge from '../img/badges/nextjs.svg'
 import ReactBadge from '../img/badges/react.png'
 import AngularBadge from '../img/badges/angular.png'
 import IonicBadge from '../img/badges/ionic.png'
@@ -40,8 +41,10 @@ export default function Skills(props) {
         </div>
         <h2>{lang.skills[2]}</h2>
         <div className="badges-skills" style={{margin: 0}}>
+          <Badge src={NextBadge} tittle="Next.js" />
           <Badge src={ReactBadge} tittle="React" />
           <Badge src={AngularBadge} tittle="Angular" />
+          <Badge src={NodeBadge} tittle="Node.js" />
           <Badge src={IonicBadge} tittle="Ionic" />
           <Badge src={SassBadge} tittle="SASS" />
           <Badge src={BootstrapBadge} tittle="Bootstrap" />
