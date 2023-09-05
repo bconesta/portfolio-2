@@ -2,7 +2,7 @@
     "es" : {
         "navbar" : ["BRUNO", "SOBRE MI", "APTITUDES", "PROYECTOS", "CONTACTO"],
         "bruno" : [
-            "BIENVENIDO A MI PORTAFOLIO COMO DESARROLLADOR FRONT-END",
+            "BIENVENIDO A MI PORTAFOLIO COMO DESARROLLADOR",
             "Si estas interesado en contactarme, escribime a",
             "Descarga mi CV"
         ],
@@ -38,7 +38,7 @@
     "en" : {
         "navbar" : ["BRUNO", "ABOUT", "SKILLS", "PROJECTS", "CONTACT"],
         "bruno" : [
-            "WELCOME TO MY PORTFOLIO AS FRONT-END DEVELOPER",
+            "WELCOME TO MY PORTFOLIO AS DEVELOPER",
             "If you are interested in contact me, write me at",
             "Download my resume"
         ],
