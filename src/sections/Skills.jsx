@@ -22,6 +22,9 @@ import GitBadge from '../img/badges/git.png'
 import NodeBadge from '../img/badges/node.png'
 import SpanishBadge from '../img/badges/spanish.jpg'
 import EnglishBadge from '../img/badges/english.jpg'
+import MongoBadge from '../img/badges/mongodb.svg'
+import MySQLBadge from '../img/badges/mysql.png'
+import FirebaseBadge from '../img/badges/firebase.png'
 
 export default function Skills(props) {
   
@@ -51,6 +54,12 @@ export default function Skills(props) {
         </div>
         <h2>{lang.skills[3]}</h2>
         <div className="badges-skills" style={{margin: 0}}>
+          <Badge src={MongoBadge} tittle="MongoDB" />
+          <Badge src={MySQLBadge} tittle="MySQL" />
+          <Badge src={FirebaseBadge} tittle="Firebase" />
+        </div>
+        <h2>{lang.skills[4]}</h2>
+        <div className="badges-skills" style={{margin: 0}}>
           <Badge src={JiraBadge} tittle="Jira" />
           <Badge src={GitBadge} tittle="Git" />
           <Badge src={NodeBadge} tittle="Node.js" />
@@ -58,7 +67,7 @@ export default function Skills(props) {
           <Badge src={TeamsBadge} tittle="Teams" />
           <Badge src={DiscordBadge} tittle="Discord" />
         </div>
-        <h2>{lang.skills[4]}</h2>
+        <h2>{lang.skills[5]}</h2>
         <div className="badges-skills" style={{margin: 0}}>
           <Badge src={SpanishBadge} tittle={lang.skills[5]} />
           <Badge src={EnglishBadge} tittle="B2 level" />
