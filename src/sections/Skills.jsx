@@ -69,7 +69,7 @@ export default function Skills(props) {
         </div>
         <h2>{lang.skills[5]}</h2>
         <div className="badges-skills" style={{margin: 0}}>
-          <Badge src={SpanishBadge} tittle={lang.skills[5]} />
+          <Badge src={SpanishBadge} tittle={lang.skills[6]} />
           <Badge src={EnglishBadge} tittle="B2 level" />
         </div>
     </div>
