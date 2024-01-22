@@ -1,0 +1,14 @@
+.container{
+    margin: 0 !important;
+    display: flex;
+    overflow-x: scroll;
+    width: 95%;
+    padding-bottom: 8px;
+    &::-webkit-scrollbar{
+      height: 8px;
+    }
+    &::-webkit-scrollbar-thumb{
+      background-color: white;
+      border-radius: 5px;
+    }
+}

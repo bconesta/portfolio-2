@@ -4,32 +4,32 @@ import './Card.scss'
 import Open from '../img/icons/open.png'
 import Download from '../img/icons/download.png'
 import Git from '../img/icons/git.png'
+import Badge from './Badge/Badge'
 
-export default function Card(props) {
+export default function Card({ src, alt, title, children, badges, download, appRef, gitRef }) {
 
   return (
     <div className='card'>
         <div className='image'> 
-            <img src={props.src} alt={props.alt} />
+            <img src={src} alt={alt} />
         </div>
         <div className='text-container'>
-            <h3>{props.title}</h3>
-            <p>{props.children}</p>
+            <h3>{title}</h3>
+            <p>{children}</p>
         </div>
         <div className='badges'>
           {
-            props.badges.map((badge)=>{
-              return <img src={badge[0]} title={badge[1]} />
+            badges.map(badge=>{
+              return <Badge key={badge+Math.random()} title={badge} iconOnly/>
             })
           }
         </div>
         <div className='links'>
-          <a href={props.appref} style={{float: "left"}} download={props.download} target="_blank" rel='noreferer'> 
-            {!props.download && <img src={Open} alt="" />}
-            {props.download && <img src={Download} alt="" />}
+          <a href={appRef} style={{float: "left"}} download={download} target="_blank" rel='noreferer'> 
+            <img src={download ? Download : Open} alt="" />
           </a>
-          {props.gitref &&
-          <a href={props.gitref} style={{float : 'right'}} target="_blank" rel='noreferer'>
+          {gitRef &&
+          <a href={gitRef} style={{float : 'right'}} target="_blank" rel='noreferer'>
             <img src={Git} alt="" />
           </a>
           } 

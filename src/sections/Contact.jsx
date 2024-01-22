@@ -3,7 +3,7 @@ import ReactBadge from '../img/badges/react.png'
 import JSBadge from '../img/badges/js.png'
 import SassBadge from '../img/badges/sass.png'
 import VercelBadge from '../img/badges/vercel.png'
-import Badge from '../components/Badge'
+import Badge from '../components/Badge/Badge'
 export default function Contact(props) {
 
   const lang = props.lang;
@@ -20,10 +20,10 @@ export default function Contact(props) {
 
       <h2>{lang.contact[1]}</h2>
       <div className="badges-skills" style={{margin: 0}}>
-          <Badge src={ReactBadge} tittle="React" />
-          <Badge src={JSBadge} tittle="JavaScript" />
-          <Badge src={SassBadge} tittle="SASS" />
-          <Badge src={VercelBadge} tittle="Vercel" />
+          <Badge src={ReactBadge} title="React" />
+          <Badge src={JSBadge} title="JavaScript" />
+          <Badge src={SassBadge} title="SASS" />
+          <Badge src={VercelBadge} title="Vercel" />
         </div>
     </div>
   )

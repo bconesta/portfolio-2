@@ -1,9 +1,4 @@
-import React from 'react'
-
-export default function About(props) {
-  
-  const lang = props.lang;
-
+export default function About({ lang }) {
   return (
     <div>
       <h1>{lang.about[0]}</h1>

@@ -26,13 +26,78 @@
         "projects" : {
             "tittle" : "PROYECTOS",
             "featured" : "Proyectos destacados",
-            "planty" : "Aplicación móvil para ver las condiciones de tus plantas",
-            "domodin" : "PWA destinada al control de los dispositivos de una casa",
-            "portfolio" : "Version antigua de mi portfolio de desarrollador",
-            "memotest" : "Juego hecho como freelancer para una compañía",
-            "roulette" : "Generador de ruleta para tomar decisiones",
-            "waiot" : "PWA para controlar el filtro de la piscina",
-            "wordland" : "Juego de palabras generado diariamente con la api de OpenAI"
+            "list" : [
+                {
+                    "title" : "Wordland",
+                    "summary" : "Juego de palabras generado diariamente con la api de OpenAI",
+                    "description" : "Juego de palabras generado diariamente con la api de OpenAI",
+                    "images" : ["/wordland/wordland.png", "", ""],
+                    "badges" : ["Next.js", "React", "JavaScript", "OpenAI"],
+                    "appRef" : "https://wordland.vercel.app",
+                    "gitRef" : "https://github.com/bconesta/sth-game",
+                    "download" : false
+                },
+                {
+                    "title" : "Waiot",
+                    "summary" : "PWA para controlar el filtro de la piscina",
+                    "description" : "PWA para controlar el filtro de la piscina",
+                    "images" : ["/waiot/all.png", "", ""],
+                    "badges" : ["React", "JavaScript", "SASS"],
+                    "appRef" : "https://waiot-2.vercel.app",
+                    "gitRef" : "https://github.com/bconesta/waiot-2",
+                    "download" : false
+                },
+                {
+                    "title" : "Mi Planty",
+                    "summary" : "Aplicación móvil para ver las condiciones de tus plantas",
+                    "description" : "Aplicación móvil para ver las condiciones de tus plantas",
+                    "images" : ["/planty/all.png", "", ""],
+                    "badges" : ["Ionic", "Angular", "TypeScript", "SASS"],
+                    "download" : "miplanty_v1.02.apk",
+                    "appRef" : "/assets/files/miplanty_v1.02.apk",
+                    "gitRef" : "https://github.com/bconesta/MiPlanty"
+                },
+                {
+                    "title" : "Domodin",
+                    "summary" : "PWA destinada al control de los dispositivos de una casa",
+                    "description" : "PWA destinada al control de los dispositivos de una casa",
+                    "images" : ["/domodin/all.png", "", ""],
+                    "badges" : ["Ionic", "Angular", "TypeScript", "SASS"],
+                    "appRef" : "https://domotica-120ce.web.app/login",
+                    "gitRef" : "",
+                    "download" : false
+                },
+                {
+                    "title" : "Portfolio",
+                    "summary" : "Version antigua de mi portfolio de desarrollador",
+                    "description" : "Version antigua de mi portfolio de desarrollador",
+                    "images" : ["/oldport.png", "", ""],
+                    "badges" : ["React", "JavaScript", "SASS"],
+                    "appRef" : "https://bconesta.github.io/portfolio/",
+                    "gitRef" : "https://github.com/bconesta/portfolio",
+                    "download" : false
+                },
+                {
+                    "title" : "Memotest",
+                    "summary" : "Juego hecho como freelancer para una compañía",
+                    "description" : "Juego hecho como freelancer para una compañía",
+                    "images" : ["/memotest/memotest.png", "", ""],
+                    "badges" : ["React", "JavaScript", "CSS3"],
+                    "appRef" : "https://memomiga.vercel.app",
+                    "gitRef" : "https://github.com/bconesta/memotest-react",
+                    "download" : false
+                },
+                {
+                    "title" : "Roulette",
+                    "summary" : "Generador de ruleta para tomar decisiones",
+                    "description" : "Generador de ruleta para tomar decisiones",
+                    "images" : ["/roulette/roulette.png", "", ""],
+                    "badges" : ["React", "JavaScript", "SASS"],
+                    "appRef" : "https://roulettemiga.vercel.app",
+                    "gitRef" : "https://github.com/bconesta/roulette-react",
+                    "download" : false
+                }
+            ]
         },
         "contact" : ["CONTACTAME", "Sitio creado con:"]
     },
@@ -63,13 +128,78 @@
         "projects" : {
             "tittle" : "PROJECTS",
             "featured" : "Featured projects",
-            "planty" : "Mobile app for monitoring plants climate conditions",
-            "domodin" : "Mobile PWA for controlling home devices",
-            "portfolio" : "Older version of my developer portfolio",
-            "memotest" : "Game made for a company as a freelancer",
-            "roulette" : "Roulette generator for making choices",
-            "waiot" : "PWA for controlling pool filter timer",
-            "wordland" : "Word game generated daily with OpenAI's API"
+            "list" : [
+                {
+                    "title" : "Wordland",
+                    "summary" : "Word game generated daily with OpenAI's API",
+                    "description" : "Word game generated daily with OpenAI's API",
+                    "images" : ["/wordland/wordland.png", "", ""],
+                    "badges" : ["Next.js", "React", "JavaScript", "OpenAI"],
+                    "appRef" : "https://wordland.vercel.app",
+                    "gitRef" : "https://github.com/bconesta/sth-game",
+                    "download" : false
+                },
+                {
+                    "title" : "Waiot",
+                    "summary" : "PWA for controlling pool filter timer",
+                    "description" : "PWA for controlling pool filter timer",
+                    "images" : ["/waiot/all.png", "", ""],
+                    "badges" : ["React", "JavaScript", "SASS"],
+                    "appRef" : "https://waiot-2.vercel.app",
+                    "gitRef" : "https://github.com/bconesta/waiot-2",
+                    "download" : false
+                },
+                {
+                    "title" : "Mi Planty",
+                    "summary" : "Mobile app for monitoring plants climate conditions",
+                    "description" : "Mobile app for monitoring plants climate conditions",
+                    "images" : ["/planty/all.png", "", ""],
+                    "badges" : ["Ionic", "Angular", "TypeScript", "SASS"],
+                    "download" : "miplanty_v1.02.apk",
+                    "appRef" : "/assets/files/miplanty_v1.02.apk",
+                    "gitRef" : "https://github.com/bconesta/MiPlanty"
+                },
+                {
+                    "title" : "Domodin",
+                    "summary" : "Mobile PWA for controlling home devices",
+                    "description" : "Mobile PWA for controlling home devices",
+                    "images" : ["/domodin/all.png", "", ""],
+                    "badges" : ["Ionic", "Angular", "TypeScript", "SASS"],
+                    "appRef" : "https://domotica-120ce.web.app/login",
+                    "gitRef" : "",
+                    "download" : false
+                },
+                {
+                    "title" : "Portfolio",
+                    "summary" : "Older version of my developer portfolio",
+                    "description" : "Older version of my developer portfolio",
+                    "images" : ["/oldport.png", "", ""],
+                    "badges" : ["React", "JavaScript", "SASS"],
+                    "appRef" : "https://bconesta.github.io/portfolio/",
+                    "gitRef" : "https://github.com/bconesta/portfolio",
+                    "download" : false
+                },
+                {
+                    "title" : "Memotest",
+                    "summary" : "Game made for a company as a freelancer",
+                    "description" : "Game made for a company as a freelancer",
+                    "images" : ["/memotest/memotest.png", "", ""],
+                    "badges" : ["React", "JavaScript", "CSS3"],
+                    "appRef" : "https://memomiga.vercel.app",
+                    "gitRef" : "https://github.com/bconesta/memotest-react",
+                    "download" : false
+                },
+                {
+                    "title" : "Roulette",
+                    "summary" : "Roulette generator for making choices",
+                    "description" : "Roulette generator for making choices",
+                    "images" : ["/roulette/roulette.png", "", ""],
+                    "badges" : ["React", "JavaScript", "SASS"],
+                    "appRef" : "https://roulettemiga.vercel.app",
+                    "gitRef" : "https://github.com/bconesta/roulette-react",
+                    "download" : false
+                }
+            ]
         },
         "contact" : ["CONTACT ME", "Website created with:"]
     }
