@@ -26,7 +26,7 @@ export default function Bruno(props) {
                 </a>
             </li>
             <li>
-                <a href="https://twitter.com/brunardou6" target="_blank" rel="noreferrer">
+                <a href="https://twitter.com/" target="_blank" rel="noreferrer">
                     <img src={Twitter} alt="" />
                 </a>
             </li>
